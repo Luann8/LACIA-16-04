@@ -1,0 +1,96 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #fff;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #020617;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+/* Apresentação */
+.apresentacao {
+    background-color: #1e293b;
+}
+
+h2{
+    margin: 20px;
+}
+
+/* Cards de projetos */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #020617;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.tecnologias {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.tecnologias i {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tecnologias i:hover {
+    transform: scale(1.2);
+}
